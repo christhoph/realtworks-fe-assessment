@@ -1,0 +1,9 @@
+.empty-state {
+  height: 10rem;
+  width: 100%;
+  background-color: var(--bg);
+  display: grid;
+  place-items: center;
+  border: 1px dashed var(--border);
+  border-radius: 0.75rem;
+}

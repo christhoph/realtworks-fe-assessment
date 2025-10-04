@@ -1,0 +1,11 @@
+main {
+  min-height: calc(100dvh - var(--header-h));
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-spacing);
+  padding: calc(var(--layout-spacing) / 2) var(--layout-spacing);
+
+  @media screen and (width > 30rem) {
+    padding: var(--layout-spacing);
+  }
+}
